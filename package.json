@@ -1,6 +1,6 @@
 { "name": "compound-on-azure"
 , "version": "0.0.1"
-, "engines": ["node": "0.8.x"]
+, "engines": { "node": "0.8.x" }
 , "main": "server.js"
 , "dependencies":
   { "ejs":              "*"
