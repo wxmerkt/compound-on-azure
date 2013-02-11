@@ -21,3 +21,9 @@
 
 */
 
+var Post = describe('Post', function () {
+    property('title', String);
+    property('content', String);
+    set('restPath', pathTo.posts);
+});
+
